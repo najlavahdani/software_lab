@@ -137,13 +137,12 @@
     background-image: url(./img/medical-health-blue-cross-neon-260nw-1931158001\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 660px;
+    border-radius: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-
+    gap: 50px;
+    padding: 80px 0;
 }
 
 .tracking-part-title{
@@ -155,7 +154,14 @@
     border-radius: 50px;
 }
 
+.healthcare-img{
+    margin-left: 150px;
+}
+
 .tracking-form{
+    border-radius: 50px;
+    height: 200px;
+    margin-left: 185px;
     padding: 50px 20px;
     background-color: var(--background-color);  
     display: flex;
