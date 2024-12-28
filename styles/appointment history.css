@@ -1,9 +1,73 @@
-.patient-appointment-history{
+.table-container {
+    width: 75%;
+    border-radius: 40px; /* Add border-radius to container */
+    overflow: hidden; /* Ensures corners are cut off */
     border: 10px solid var(--primary-color);
+    direction: rtl;
+    background-color: var(--white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.patient-appointment-history {
+    border-collapse: collapse;
+    width: 100%;
+    border: none; /* Remove the border from the table itself */
+}
+
+.right-border-style-fixing{
+    border-right: unset !important;
+}
+
+.left-border-style-fixing{
+    border-left: unset !important;
 }
 
 .patient-name{
     font-size: var(--small-title-size);
     font-weight: var(--bold);
+}
+
+.table-header1{
+    text-align: right;
+    height: 70px;
+    font-size: var(--small-title-size);
+    font-weight: var(--bold);
+    color: var(--black);
+    padding-right: 20px;
+}
+
+th{
+    width: 200px;
+}
+
+td{
+    font-size: var(--small-title2-size);
+    font-weight: var(--regular);
+    color: var(--black);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.table-header2{
+    border: 10px solid var(--primary-color);
+    height: 40px;
+    font-size: var(--small-title-size);
+    font-weight: var(--bold);
     color: var(--black);
 }
+
+.patient-appointment-history td{
+    border-left: 10px solid var(--primary-color);
+    border-right: 10px solid var(--primary-color);
+}
+/* 
+table tr:last-child td:first-child {
+    border: 2px solid orange;
+    border-bottom-left-radius: 10px;
+} */
+    
+/* table tr:last-child td:last-child {
+    border: 2px solid green;
+    border-bottom-right-radius: 10px;
+} */
+
+
