@@ -1,0 +1,9 @@
+.patient-appointment-history{
+    border: 10px solid var(--primary-color);
+}
+
+.patient-name{
+    font-size: var(--small-title-size);
+    font-weight: var(--bold);
+    color: var(--black);
+}
